@@ -176,7 +176,7 @@ main{
 .project-detail-box{
     display: none; /*hidden by default*/
     position: fixed; /*stay in place*/
-    z-index: 6;
+    z-index: 10;
     left:0;
     top:0;
     width: 100%;
@@ -205,6 +205,9 @@ main{
 .project-detail-content img{    
     width: 80%;
     margin:.5rem auto;
+}
+.project-detail-content ul li{
+    list-style: none;
 }
 .close-btn{
     color: #f04178;
