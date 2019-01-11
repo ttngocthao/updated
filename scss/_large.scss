@@ -1,0 +1,67 @@
+
+/*---------- HEADER GOES HERE -------------*/
+
+/*-------------- MAIN --------------*/
+main{
+    margin-top: 8.4rem;
+}
+/*-------------- HOME --------------------*/
+#home #greeting{
+    font-size: 2rem;
+    left:32%;
+   
+}
+/*------------- ABOUT ME ---------------*/
+#about-me{
+    .wrapper{
+        display: grid;
+        grid-template-columns: 30% 70%;
+    }
+    .intro{
+        width: 80%;
+        font-size: 16px;
+    }
+}
+/*---------------- PROJECT ----------------*/
+.projects{
+    width:50%;
+    float:left;
+}
+.project-detail-content{
+    width: 60%;
+    img{
+        width:50%;
+    }
+    div{
+        width:80%;
+        margin:.5rem auto;
+    }
+    ul li{
+        list-style: none;
+        display: inline-block;
+        margin: 1rem;
+    }
+}
+/*------------- SKILLS -----------*/
+#skills{
+    clear: both;
+}
+/*-------------- EDUCATION ------------------*/
+#edu .wrapper{
+        display: grid;
+        grid-template-columns: 50% 50%;
+}
+
+/*------------------- CONTACT ----------------*/
+.contact-info{
+    h2{
+        font-size: 1.5rem;
+    }
+    p{
+        margin: 2rem auto;
+        font-size: 1rem;
+    }
+    .ex-links i{
+        font-size: 2.5rem;
+    }
+}

@@ -1,0 +1,125 @@
+/*---------- HEADER GOES HERE -------------*/
+#menu-icon{
+    display:none;
+    opacity: 0;
+}
+#my-logo{
+    text-align: center;
+}
+#my-logo img{
+    width:5rem;
+}
+.nav-list{
+    display: block;
+    opacity: 1;
+   
+}
+.nav-list ul{
+    margin: .2rem auto;
+}
+.nav-list ul li{
+    display: inline-block;
+    padding: 0 1rem;
+    font-size: 18px;
+    margin: .2rem;
+}
+
+
+/*-------------- MAIN --------------*/
+main{
+    margin-top: 8rem;
+}
+/*-------------- HOME --------------------*/
+
+#home .banner{
+    
+   
+}
+
+/*------------- ABOUT ME ---------------*/
+#about-me{
+    
+    .wrapper{
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+    .photo{
+        text-align: center;
+        margin: 0 auto;
+        // background-color: palevioletred;
+    }
+    .photo img{
+        width:80%;
+        margin: 5rem auto .5rem auto;
+    }
+    .photo a{
+        width: 80%;
+    }
+    .intro{
+        width: 95%;
+        margin:0 auto;
+        // background-color: palegreen;
+    }
+}
+
+/*---------------------- PROJECTS ------------------*/
+.projects img{
+    width:80%;
+}
+.projects-img{
+    margin-bottom:1rem;
+}
+.project-detail-content{
+    width: 70%;
+    margin:5% auto;
+}
+/*-------------------- SOFT SKILLS------------------*/
+#skills {
+    margin-top:2rem;
+    clear: both;
+}
+.soft-skills{
+   width:90%;
+   display: grid;
+   grid-template-columns: 50% 50%;
+   grid-column-gap: 2%; 
+   
+}
+.soft-skills div{
+    width:90%;
+    
+}
+/*-------------------- TECH SKILLS---------------------*/
+.tech-skills{
+    margin: 0 auto;
+    width:90%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.icon-meaning{
+    text-align: center;
+}
+
+.tech-skills div:nth-child(5):hover .icon-meaning{
+    top:-.5rem;
+    opacity:1;
+}
+/*------------- CONTACT ME ------------*/
+#contact .wrapper{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.contact-info{
+    align-self: center;
+   
+}
+.contact-form {
+    border-left:2px solid lightgray;
+    h2{
+    border-top:2px solid transparent;}
+    
+
+}
+
+
