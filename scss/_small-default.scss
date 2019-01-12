@@ -389,6 +389,7 @@ main{
 /*------------- WORK EXPERIENCES ------------*/
 #works{
     width:90%;
+    
     h1{
         margin: 1.5rem auto;
         font-size: 1.4rem;
@@ -486,14 +487,22 @@ main{
 .moreBtn i{
     font-size: 1.5rem;
     transition:.2s;
+    padding: 2px;
+    position: absolute;
+    top: 0;
+}
+.moreBtn .text{
+    position: relative;
+    left: 30px;
 }
 .moreBtn:hover i{
     cursor:pointer;
 }
 .clickedBtn{
-    transform: rotate(180deg);
+    transform: rotate(180deg) translateY(10px);;
     color:#f04178;
 }
+
 /*---------------------- CONTACT ----------------------*/
 #contact{
     h1{
