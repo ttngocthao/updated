@@ -182,7 +182,6 @@ main {
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
     border-image: radial-gradient(#f04178, #f7729e, white) 1;
-    -webkit-border-image: radial-gradient(#f04178, #f7729e, white) 1;
     width: 80%; }
   #about-me .photo img {
     box-shadow: 5px 5px 5px gray;
@@ -230,7 +229,6 @@ main {
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
     border-image: radial-gradient(#f04178, #f7729e, white) 1;
-    -webkit-border-image: radial-gradient(#f04178, #f7729e, white) 1;
     width: 80%; }
   #projects h3 {
     font-size: 1rem; }
@@ -256,6 +254,7 @@ main {
   width: 100%;
   height: 100%;
   overflow: auto;
+  -webkit-overflow-scrolling: touch;
   background-color: rgba(255, 255, 255, 0.8); }
 
 .project-detail-content {
@@ -274,7 +273,6 @@ main {
   border-bottom: 2px solid transparent;
   width: 90%;
   border-image: radial-gradient(#f04178, #f7729e, white) 1;
-  -webkit-border-image: radial-gradient(#f04178, #f7729e, white) 1;
   font-size: 1rem; }
 
 .project-detail-content img {
@@ -312,7 +310,6 @@ main {
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
     border-image: radial-gradient(#f04178, #f7729e, white) 1;
-    -webkit-border-image: radial-gradient(#f04178, #f7729e, white) 1;
     width: 80%;
     line-height: 1.8rem; }
 
@@ -401,7 +398,6 @@ main {
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
     border-image: radial-gradient(#f04178, #f7729e, white) 1;
-    -webkit-border-image: radial-gradient(#f04178, #f7729e, white) 1;
     width: 80%;
     line-height: 1.8rem; }
 
@@ -442,7 +438,6 @@ main {
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
     border-image: radial-gradient(#f04178, #f7729e, white) 1;
-    -webkit-border-image: radial-gradient(#f04178, #f7729e, white) 1;
     width: 80%;
     line-height: 1.8rem; }
   #works .timeline {
@@ -530,7 +525,6 @@ main {
   border-top: 5px solid transparent;
   border-bottom: 5px solid transparent;
   border-image: radial-gradient(#f04178, #f7729e, white) 1;
-  -webkit-border-image: radial-gradient(#f04178, #f7729e, white) 1;
   width: 80%;
   line-height: 1.8rem; }
 
