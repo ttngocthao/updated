@@ -248,7 +248,7 @@ main {
   /*hidden by default*/
   position: fixed;
   /*stay in place*/
-  z-index: 10;
+  z-index: 25;
   left: 0;
   top: 0;
   width: 100%;
