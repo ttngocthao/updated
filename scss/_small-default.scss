@@ -232,7 +232,7 @@ main{
 .close-btn:hover, .close-btn:focus{
     cursor: pointer;
 }
-.visitBtn i{
+.visitBtn i, .gitLink i{
     font-size: 1rem;
     color:$primaryColor;
 }

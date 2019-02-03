@@ -33,7 +33,7 @@
                     <a href="#skills"><li>Skills</li></a>
                     <a href="#edu"><li>Education</li></a> 
                     <a href="#works"><li>Work Experience</li></a>
-                    <a href="#contact-me"><li>Contact Me</li></a>
+                    <a href="#contact"><li>Contact Me</li></a>
                 </ul>
             </nav>
         </header>
@@ -56,7 +56,7 @@
                     </div>
                     <div class='intro animated zoomIn slower'>
                         <h3 >My name is Thao Truong</h3>
-                        <h4>I am a junior front end web devloper</h4>
+                        <h4>I am a junior front end web developer</h4>
                         <h5>based in Surrey, near London.</h5>
                         <p> I studied in Vietnam and completed my Bachelor's Degree in Maths Pedagogy in 2010 and I have worked for secondary schools as a Maths teacher for several years before coming to the UK. I now feel that it is time to realise my dream of working in the IT industry.</p>
                         <p> I have always been interested in computers and technology, ever since my father encouraged me to learn how to use computers when i was 8. Computers have been a part of my life since then. I learned Visual Basic when I was 16 as it was a compulsory subject at school and I totally enjoyed using my Maths and Art skills to create good looking useful programmes.</p>
@@ -69,13 +69,39 @@
             <!-- Projects go here -->
             <section id='projects'>
                 <h1 class='wow fadeIn' data-wow-duration="4s">Projects</h1>
+                
+                <div class='projects wow slideInRight' data-wow-duration="3s">
+                    <h3>Little Sweet Bakery</h3>
+                    <div class='projects-img'><img src='images/littleSweet.png'></div>
+                </div>
+                <div class='project-detail-box'>
+                    <div class="project-detail-content">
+                        <span class='close-btn'>&times;</span>
+                        <h2>Little Sweet Bakery</h2>
+                        <img src='images/littleSweet.png'>
+                        <div>
+                            <p>An informative and online shopping webpage. Google map API is used to show location. AJAX call is used to get the data from JSON to the webpage.  All the products’ data, products’ information, is dynamically loaded using JavaScript and ES6 Syntax. The webpage has functionalities to display a star rating for each product, to show product information individually, to add a product to shopping basket, to adjust items in shopping basket and to search products from search box. Simple PHP Post is used for the contact form in the webpage. SCSS clip-path and shape-outside properties are used to display pictures that are, ‘out of the box format’. The web page is device responsive. User-friendly front-end features are used.
+                            </p>
+                            <ul>
+                                <li>HTML</li>
+                                <li>SCSS</li>
+                                <li>JAVASCRIPT</li>
+                                <li>JQUERY</li>
+                                <li>PHP</li>               
+                            </ul>
+                        </div>
+                        <a href="https://ttngocthao.github.io/littleSweet/" class='visitBtn' target="blank"><i class="fas fa-link"></i></a>
+                        <a href="https://github.com/ttngocthao/littleSweet" class='gitLink'><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                
                 <div class='projects wow slideInLeft' data-wow-duration="3s">
                     <h3>French Quiz</h3>
                     <div class='projects-img'><img src='images/french-quiz.png'></div>
                 </div>
                 <div class='project-detail-box'>
                     <div class="project-detail-content">
-                        <span class='close-btn'>&times</span>
+                        <span class='close-btn'>&times;</span>
                         <h2>French Quiz</h2>
                         <img src='images/french-quiz.png'>
                         <div>
@@ -88,32 +114,11 @@
                             </ul>
                         </div>
                         <a href="https://ttngocthao.github.io/quiz/" target="blank" class='visitBtn'><i class="fas fa-link"></i></a>
+                        <a href="https://github.com/ttngocthao/quiz" class='gitLink'><i class="fab fa-github"></i></a>
                     </div>
                 </div>
                 
-                <div class='projects wow slideInRight' data-wow-duration="3s">
-                    <h3>Little Sweet Bakery</h3>
-                    <div class='projects-img'><img src='images/littleSweet.png'></div>
-                </div>
-                <div class='project-detail-box'>
-                    <div class="project-detail-content">
-                        <span class='close-btn'>&times</span>
-                        <h2>Little Sweet Bakery</h2>
-                        <img src='images/littleSweet.png'>
-                        <div>
-                            <p>An informative and simple online shopping webpage. Google map API is used to show location. AJAX call is used to get the data from JSON to the webpage.  All the products’ data, products’ information, is dynamically loaded using JavaScript and ES6 Syntax. The webpage has functionalities to display a star rating for each product, to show product information individually, to add a product to shopping basket, to adjust items in shopping basket and to search products from search box. Simple PHP Post is used for the contact form in the webpage. SCSS clip-path and shape-outside properties are used to display pictures that are, ‘out of the box format’. The web page is device responsive. User-friendly front-end features are used.
-                            </p>
-                            <ul>
-                                <li>HTML</li>
-                                <li>SCSS</li>
-                                <li>JAVASCRIPT</li>
-                                <li>JQUERY</li>
-                                <li>PHP</li>               
-                            </ul>
-                        </div>
-                        <a href="https://ttngocthao.github.io/littleSweet/" class='visitBtn' target="blank"><i class="fas fa-link"></i></a>
-                    </div>
-                </div>
+                
 
                 <div class='projects wow slideInLeft' data-wow-duration="3s">
                     <h3>Indian Restaurant</h3>
@@ -121,7 +126,7 @@
                 </div>
                 <div class='project-detail-box'>
                     <div class="project-detail-content">
-                        <span class='close-btn'>&times</span> <h2>Indian Restaurant</h2>
+                        <span class='close-btn'>&times;</span> <h2>Indian Restaurant</h2>
                         <img src='images/restaurant.png'>
                         <div>
                             <p>This is an informative webpage for the Indian pub/restaurant that I often visit . Within the webpage, information about the location and the menu is shown. Zoom effects are used to enhance the customers' experience. Google map link is used to show the location. All the codes in this project are hand-coded. The web page is device responsive, ie; it works across all device platforms. </p>
@@ -132,6 +137,7 @@
                             </ul>
                         </div>
                         <a href="https://ttngocthao.github.io/indian-restaurant/" target="blank" class='visitBtn'><i class="fas fa-link"></i></a>
+                        <a href="https://github.com/ttngocthao/indian-restaurant" class='gitLink'><i class="fab fa-github"></i></a>
                     </div>
                 </div>
 
@@ -141,7 +147,7 @@
                 </div>
                 <div class='project-detail-box'>
                     <div class="project-detail-content">
-                        <span class='close-btn'>&times</span> <h2>Coming soon</h2>
+                        <span class='close-btn'>&times;</span> <h2>Coming soon</h2>
                         <img src='images/comingSoon.png'>
                         <div>Finding the right colours for your website is not easy. Even though I am considered to have a natural flair for creativity and design, it still takes me time to decide on the correct colours. This has inspired me to create a simple interactive webpage to help decide which colours should be used together based on the prevailing colour scheme. It is coming soon!!</div>
                         <a href="#" class='visitBtn' ><i class="fas fa-link"></i></a>

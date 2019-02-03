@@ -297,7 +297,7 @@ main {
 .close-btn:hover, .close-btn:focus {
   cursor: pointer; }
 
-.visitBtn i, .gitLink i {
+.visitBtn i {
   font-size: 1rem;
   color: #f04178; }
 
@@ -752,3 +752,5 @@ footer {
   .contact-info .ex-links i {
     font-size: 2.5rem; } }
 /*end media query*/
+
+/*# sourceMappingURL=styles.css.map */
