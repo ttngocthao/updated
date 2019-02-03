@@ -299,7 +299,8 @@ main {
 
 .visitBtn i, .gitLink i {
   font-size: 1rem;
-  color: #f04178; }
+  color: #f04178;
+  padding: 0 1rem; }
 
 /*------------- SKILLS -----------*/
 #skills {
