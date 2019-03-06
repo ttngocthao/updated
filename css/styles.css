@@ -332,6 +332,10 @@ main {
   font-size: 20px;
   margin: .5rem auto; }
 
+.tech-skills {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
+
 .tech-skills div {
   margin: 2rem auto;
   padding: 1rem; }
@@ -351,15 +355,17 @@ main {
 #sassy-icon {
   font-size: 3rem;
   position: relative;
-  top: -1rem; }
+  top: -1.2rem; }
 
 #jq-icon {
-  font-size: 1.5rem;
-  padding: 2px 15px;
-  background-color: #302f2f;
   color: white;
   border-radius: 5px;
-  transition: 0.2s; }
+  transition: 0.2s;
+  position: relative;
+  top: -.6rem; }
+
+#jq-icon img {
+  width: 40%; }
 
 #ps-icon {
   padding: 6px 11px;
@@ -367,6 +373,8 @@ main {
   background-color: #302f2f;
   color: white;
   border-radius: 5px;
+  position: relative;
+  top: 13px;
   transition: 0.2s; }
 
 .icon-meaning {
@@ -378,10 +386,7 @@ main {
   transition: 0.5s linear;
   font-size: 1rem; }
 
-.icon-meaning:first-child {
-  color: red; }
-
-.tech-skills div:hover #scss-icon, .tech-skills div:hover #ps-icon, .tech-skills div:hover #b-icon, .tech-skills div:hover #jq-icon {
+.tech-skills div:hover #scss-icon, .tech-skills div:hover #ps-icon, .tech-skills div:hover #b-icon {
   background-color: #f8acc6;
   cursor: pointer; }
 
@@ -390,7 +395,7 @@ main {
   cursor: pointer; }
 
 .tech-skills div:hover .icon-meaning {
-  top: 1rem;
+  top: 1.5rem;
   opacity: 1; }
 
 /*---------------- EDUCATION ---------------*/
@@ -667,16 +672,19 @@ footer {
   /*-------------------- TECH SKILLS---------------------*/
   .tech-skills {
     margin: 0 auto;
-    width: 90%;
-    display: grid;
-    grid-template-columns: 33% 33% 33%; }
+    width: 100%;
+    overflow: hidden;
+    grid-template-columns: repeat(4, 1fr); }
 
   .icon-meaning {
     text-align: center; }
 
-  .tech-skills div:nth-child(5):hover .icon-meaning {
-    top: -.5rem;
-    opacity: 1; }
+  #b-icon {
+    position: relative;
+    top: 1rem; }
+
+  #sassy-icon {
+    top: 0; }
 
   /*--------------- WORKS -----------------*/
   #works {
@@ -734,6 +742,9 @@ footer {
   /*------------- SKILLS -----------*/
   #skills {
     clear: both; }
+
+  #jq-icon img {
+    width: 30%; }
 
   /*-------------- EDUCATION ------------------*/
   #edu .wrapper {

@@ -92,19 +92,26 @@ main{
 /*-------------------- TECH SKILLS---------------------*/
 .tech-skills{
     margin: 0 auto;
-    width:90%;
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
+    width:100%;
+    overflow: hidden;
+   grid-template-columns: repeat(4,1fr);
 }
 
 .icon-meaning{
     text-align: center;
 }
-
-.tech-skills div:nth-child(5):hover .icon-meaning{
-    top:-.5rem;
-    opacity:1;
+#b-icon{
+    position: relative;
+    top:1rem;
 }
+#sassy-icon{
+    top:0;
+}
+
+// .tech-skills div:nth-child(5):hover .icon-meaning{
+//     top:-.5rem;
+//     opacity:1;
+// }
 /*--------------- WORKS -----------------*/
 #works{
     margin:0 auto;

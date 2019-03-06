@@ -273,6 +273,10 @@ main{
     margin: .5rem auto;
     // color: $primaryColor;
 }
+.tech-skills{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
 .tech-skills div{
     margin:2rem auto;
     padding: 1rem;
@@ -293,15 +297,20 @@ main{
 #sassy-icon{
     font-size: 3rem;
     position: relative;
-    top:-1rem;
+    top:-1.2rem;
 }
 #jq-icon{
-    font-size: 1.5rem;
-    padding:2px 15px;
-    background-color: rgb(48, 47, 47);
+    // font-size: 1.5rem;
+    // padding:2px 15px;
+    // background-color: rgb(48, 47, 47);
     color: white;
     border-radius: 5px;
-    transition: .2s 
+    transition: .2s ;
+    position: relative;
+    top:-.6rem;
+}
+#jq-icon img{
+    width:40%
 }
 #ps-icon{
     padding: 6px 11px;  
@@ -309,6 +318,8 @@ main{
     background-color: rgb(48, 47, 47);
     color: white;
     border-radius: 5px;
+    position: relative;
+    top:13px;
     transition: .2s 
 }
 .icon-meaning{
@@ -320,19 +331,20 @@ main{
     transition: 0.5s linear;
     font-size: 1rem;
 }
-.icon-meaning:first-child{
-    color:red;
-}
-.tech-skills div:hover #scss-icon, .tech-skills div:hover #ps-icon,.tech-skills div:hover #b-icon, .tech-skills div:hover #jq-icon{
+
+.tech-skills div:hover #scss-icon, .tech-skills div:hover #ps-icon,.tech-skills div:hover #b-icon{
     background-color: rgb(248, 172, 198);
     cursor: pointer;
 }
+// .tech-skills div:hover #jq-icon{
+    
+// }
 .tech-skills div:hover i{
     color: rgb(248, 172, 198);
     cursor: pointer;
 }
 .tech-skills div:hover .icon-meaning{
-    top:1rem;
+    top:1.5rem;
     opacity:1;
 }
 
