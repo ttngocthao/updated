@@ -59,6 +59,10 @@ main{
 }
 
 /*---------------------- PROJECTS ------------------*/
+.projects{
+    width:calc(100%/2);
+    float:left;
+}
 .projects img{
     width:80%;
 }

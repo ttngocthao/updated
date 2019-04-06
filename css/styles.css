@@ -499,9 +499,9 @@ main {
     margin: 0.5em 0.5em 0.5em -0.5em;
     position: absolute;
     top: 0;
-    left: 2em;
-    width: 1em;
-    height: 1em;
+    left: 1.6em;
+    width: 2em;
+    height: 2em;
     transform: rotate(45deg); }
   #works .timeline-event-text {
     display: none; }
@@ -645,6 +645,10 @@ footer {
     margin: 0 auto; }
 
   /*---------------------- PROJECTS ------------------*/
+  .projects {
+    width: calc(100%/2);
+    float: left; }
+
   .projects img {
     width: 80%; }
 
@@ -724,7 +728,7 @@ footer {
 
   /*---------------- PROJECT ----------------*/
   .projects {
-    width: 50%;
+    width: calc(100%/3);
     float: left; }
 
   .project-detail-content {

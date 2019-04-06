@@ -473,12 +473,22 @@ main{
         margin: 0.5em 0.5em 0.5em -0.5em;
         position: absolute;
         top: 0;
-        left: 2em;
-        width: 1em;
-        height: 1em;
+        left: 1.6em;
+        width: 2em;
+        height: 2em;
         transform: rotate(45deg)
     }
-   
+//    .timeline-event-icon::before{
+//        background-image: url('https://static.thenounproject.com/png/32875-200.png');
+//        background-size: cover;
+//        content: '';
+//        width:2em;
+//        height: 2em;
+//        position: absolute;
+//        left: 0;
+//        top:0;
+//        transform: rotate(-45deg);
+//    }
     .timeline-event-text{
         display:none;
     }    
