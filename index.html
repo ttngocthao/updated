@@ -1,496 +1,812 @@
 <!DOCTYPE html>
-<html lang='en'>
-    <head>
-        <!--TELL PHONES NOT TO LIE ABOUT THEIR WIDTH-->
-        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
-        <meta charset="utf-8">
-        <title>Thao Truong</title>
-        <link rel='icon' type="image/icon" href="./images/my-logo1x.png">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Poppins:300,600" rel="stylesheet">
-        <link href='css/styles.css' rel='stylesheet'>
-        <!---WOW EFFECT-->
-        <link rel="stylesheet" href="packages/WOW-master/css/libs/animate.css">
+<html lang="en">
+  <head>
+    <!--TELL PHONES NOT TO LIE ABOUT THEIR WIDTH-->
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1"
+    />
+    <meta charset="utf-8" />
+    <title>Thao-FrontEndDeveloper</title>
+    <link rel="icon" type="image/icon" href="./images/my-logo1x.png" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,600"
+      rel="stylesheet"
+    />
+    <link href="css/styles.css" rel="stylesheet" />
+    <!---WOW EFFECT-->
+    <link rel="stylesheet" href="packages/WOW-master/css/libs/animate.css" />
+  </head>
+  <body>
+    <!--page header goes here-->
+    <header class="wow fadeIn" data-wow-duration="4s">
+      <!--page navigation goes here-->
+      <div id="my-logo"><img src="images/my-logo.png" /></div>
+      <div id="menu-icon">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <nav class="nav-list">
+        <ul>
+          <a href="#top" class="active"><li>Home</li></a>
+          <a href="#about-me"> <li>About Me</li></a>
+          <a href="#projects"><li>Projects</li></a>
+          <a href="#skills"><li>Skills</li></a>
+          <a href="#edu"><li>Education</li></a>
+          <a href="#works"><li>Work Experience</li></a>
+          <a href="#contact"><li>Contact Me</li></a>
+        </ul>
+      </nav>
+    </header>
 
-      
-    </head>
-    <body>
-        <!--page header goes here-->
-        <header class='wow fadeIn' data-wow-duration="4s">
-            <!--page navigation goes here-->
-            <div id='my-logo'><img src="images/my-logo.png"></div>
-            <div id='menu-icon'>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+    <!--Page content goes here-->
+    <main>
+      <section class="wow fadeIn" data-wow-duration="1s" id="home">
+        <div class="banner">
+          <div class="greeting">
+            <h3 class="wow fadeIn" data-wow-duration="2s" data-wow-delay="1s">
+              Welcome to my site
+            </h3>
+            <h2 class="wow fadeIn" data-wow-duration="3s" data-wow-delay="2s">
+              I'm Thao
+            </h2>
+            <h1 class="wow fadeIn" data-wow-duration="4s" data-wow-delay="3s">
+              Junior Front End<br />
+              Web Developer
+            </h1>
+          </div>
+        </div>
+      </section>
+      <!-- About me goes here -->
+      <section id="about-me">
+        <h1 class="wow fadeIn" data-wow-duration="4s">About Me</h1>
+        <div class="wrapper">
+          <div class="photo wow slideInLeft" data-wow-duration="2s">
+            <img class="my-photo" src="images/myphoto.jpg" />
+            <a
+              href="packages/ThaoTruong-CV-DPP.pdf"
+              download="ThaoTruong's-CV-FrontEnd"
+              >My CV <i class="fas fa-file-download"></i
+            ></a>
+          </div>
+          <div class="intro animated zoomIn slower">
+            <h3>My name is Thao Truong</h3>
+            <h4>I am a junior front end web developer</h4>
+            <h5>based in Surrey, near London.</h5>
+            <p>
+              I studied in Vietnam and completed my Bachelor's Degree in Maths
+              Pedagogy in 2010 and I have worked for secondary schools as a
+              Maths teacher for several years before coming to the UK. I now
+              feel that it is time to realise my dream of working in the IT
+              industry.
+            </p>
+            <p>
+              I have always been interested in computers and technology, ever
+              since my father encouraged me to learn how to use computers when i
+              was 8. Computers have been a part of my life since then. I learned
+              Visual Basic when I was 16 as it was a compulsory subject at
+              school and I totally enjoyed using my Maths and Art skills to
+              create good looking useful programmes.
+            </p>
+            <p>
+              I have completed a self-funded course in front end web development
+              with a training and recruitment company called Just IT. This has
+              taken my understanding to the next level and goes towards making
+              my passion a reality.
+            </p>
+            <p>
+              I am a highly effective and committed individual with strong
+              problem solving Maths abilities, combining good organisational
+              skills and computer languages. I have knowledge of Adobe
+              Photoshop, Corel Draw with a natural flair for creativity and a
+              keen eye for detail, now seeking a role as a junior front-end
+              developer.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects go here -->
+      <section id="projects">
+        <h1 class="wow fadeIn" data-wow-duration="4s">Projects</h1>
+
+        <div class="projects wow slideInRight" data-wow-duration="3s">
+          <h3>Recipe Search</h3>
+          <div class="projects-img">
+            <img src="images\recipeSearch.png" />
+          </div>
+        </div>
+        <div class="project-detail-box">
+          <div class="project-detail-content">
+            <span class="close-btn">&times;</span>
+            <h2>Recipe Search</h2>
+            <img src="images/recipeSearch.png" />
+            <div>
+              <p>
+                It is a React web application, finding recipes based on an
+                ingredient search. Food API from Edamam.com is used in this
+                project to show 10 different recipes per ingredient search. A
+                user chooses one recipe from the list of 10, a full list of the
+                ingredient for that recipe is then shown. Moreover, there is a
+                link provided to navigate to the original recipe's website in
+                order to obtain the cooking methods.
+              </p>
+              <ul>
+                <li>React</li>
+                <li>React-Router</li>
+                <li>JavaScript</li>
+                <li>CSS</li>
+                <li>HTML</li>
+              </ul>
             </div>
-            <nav class='nav-list'>
-                <ul>
-                    <a href="#top" class='active'><li>Home</li></a>
-                    <a href="#about-me"> <li>About Me</li></a>
-                    <a href='#projects'><li>Projects</li></a>
-                    <a href="#skills"><li>Skills</li></a>
-                    <a href="#edu"><li>Education</li></a> 
-                    <a href="#works"><li>Work Experience</li></a>
-                    <a href="#contact"><li>Contact Me</li></a>
-                </ul>
-            </nav>
-        </header>
-        
+            <a
+              href="https://search-recipes-thaotruong.netlify.com/"
+              target="blank"
+              class="visitBtn"
+              ><i class="fas fa-link" title="visit the project"></i
+            ></a>
+            <a
+              href="https://github.com/ttngocthao/React-Search-Recipes"
+              class="gitLink"
+              title="visit its repositories"
+              ><i class="fab fa-github"></i
+            ></a>
+            <!-- <div>Finding the right colours for your website is not easy. Even though I am considered to have a natural flair for creativity and design, it still takes me time to decide on the correct colours. This has inspired me to create a simple interactive webpage to help decide which colours should be used together based on the prevailing colour scheme. It is coming soon!!</div> -->
+          </div>
+        </div>
 
-        
+        <div class="projects wow slideInRight" data-wow-duration="3s">
+          <h3>Weather Web</h3>
+          <div class="projects-img"><img src="images/weatherapp.png" /></div>
+        </div>
+        <div class="project-detail-box">
+          <div class="project-detail-content">
+            <span class="close-btn">&times;</span>
+            <h2>Weather Web</h2>
+            <img src="images/weatherapp.png" />
+            <div>
+              <p>
+                My first React web application. Users can find the current
+                weather of a particular place thanks to the town and country
+                search box. Weather API is used in this project to show current
+                location, current temperature and current weather description.
+                Moreover, the application also demonstrates the weather forecast
+                of that location for the next 4 days.
+              </p>
+              <ul>
+                <li>React</li>
+                <li>JavaScript</li>
+                <li>CSS</li>
+                <li>HTML</li>
+              </ul>
+            </div>
+            <a
+              href="https://weatherapp-thaotruong.netlify.com/"
+              target="blank"
+              class="visitBtn"
+              ><i class="fas fa-link" title="visit the project"></i
+            ></a>
+            <a
+              href="https://github.com/ttngocthao/weather-app-react"
+              class="gitLink"
+              title="visit its repositories"
+              ><i class="fab fa-github"></i
+            ></a>
+            <!-- <div>Finding the right colours for your website is not easy. Even though I am considered to have a natural flair for creativity and design, it still takes me time to decide on the correct colours. This has inspired me to create a simple interactive webpage to help decide which colours should be used together based on the prevailing colour scheme. It is coming soon!!</div> -->
+          </div>
+        </div>
 
-        <!--Page content goes here-->
-        <main>
-            <section class='wow bounceInDown' data-wow-duration="2s" id='home'>
-                <div class='banner'><img src="images/banner.jpg"></div>
-            </section>
-            <!-- About me goes here -->
-            <section id='about-me'>
-                <h1 class='wow fadeIn' data-wow-duration="4s">About Me</h1>
-                <div class='wrapper'>
-                    <div class='photo wow slideInLeft' data-wow-duration="2s">
-                        <img class='my-photo' src="images/myphoto.jpg">
-                        <a href="packages/ThaoTruong-CV-DPP.pdf" download="ThaoTruong's-CV-FrontEnd">My CV <i class="fas fa-file-download"></i></a>
-                    </div>
-                    <div class='intro animated zoomIn slower'>
-                        <h3 >My name is Thao Truong</h3>
-                        <h4>I am a junior front end web developer</h4>
-                        <h5>based in Surrey, near London.</h5>
-                        <p> I studied in Vietnam and completed my Bachelor's Degree in Maths Pedagogy in 2010 and I have worked for secondary schools as a Maths teacher for several years before coming to the UK. I now feel that it is time to realise my dream of working in the IT industry.</p>
-                        <p> I have always been interested in computers and technology, ever since my father encouraged me to learn how to use computers when i was 8. Computers have been a part of my life since then. I learned Visual Basic when I was 16 as it was a compulsory subject at school and I totally enjoyed using my Maths and Art skills to create good looking useful programmes.</p>
-                        <p>I have completed a self-funded course in front end web development with a training and recruitment company called Just IT. This has taken my understanding to the next level and goes towards making my passion a reality.</p>
-                        <p>I am a highly effective and committed individual with strong problem solving Maths abilities, combining good organisational skills and computer languages. I have knowledge of Adobe Photoshop, Corel Draw with a natural flair for creativity and a keen eye for detail, now seeking a role as a junior front-end developer.</p>
-                    </div>
-                </div>
-            </section>
+        <div class="projects wow slideInRight" data-wow-duration="3s">
+          <h3>Little Sweet Bakery</h3>
+          <div class="projects-img"><img src="images/littleSweet.png" /></div>
+        </div>
+        <div class="project-detail-box">
+          <div class="project-detail-content">
+            <span class="close-btn">&times;</span>
+            <h2>Little Sweet Bakery</h2>
+            <img src="images/littleSweet.png" />
+            <div>
+              <p>
+                An informative and online shopping webpage. Google map API is
+                used to show location. AJAX call is used to get the data from
+                JSON to the webpage. All the products’ data, products’
+                information, is dynamically loaded using JavaScript and ES6
+                Syntax. The webpage has functionalities to display a star rating
+                for each product, to show product information individually, to
+                add a product to shopping basket, to adjust items in shopping
+                basket and to search products from search box. Simple PHP Post
+                is used for the contact form in the webpage. SCSS clip-path and
+                shape-outside properties are used to display pictures that are,
+                ‘out of the box format’. The web page is device responsive.
+                User-friendly front-end features are used.
+              </p>
+              <ul>
+                <li>HTML</li>
+                <li>SCSS</li>
+                <li>JAVASCRIPT</li>
+                <li>JQUERY</li>
+                <li>PHP</li>
+              </ul>
+            </div>
+            <a
+              href="https://ttngocthao.github.io/littleSweet/"
+              class="visitBtn"
+              target="blank"
+              title="visit the project"
+              ><i class="fas fa-link"></i
+            ></a>
+            <a
+              href="https://github.com/ttngocthao/littleSweet"
+              class="gitLink"
+              title="visit its repositories
+                        "
+              ><i class="fab fa-github"></i
+            ></a>
+          </div>
+        </div>
 
-            <!-- Projects go here -->
-            <section id='projects'>
-                <h1 class='wow fadeIn' data-wow-duration="4s">Projects</h1>
+        <div class="projects wow slideInLeft" data-wow-duration="3s">
+          <h3>French Quiz</h3>
+          <div class="projects-img"><img src="images/french-quiz.png" /></div>
+        </div>
+        <div class="project-detail-box">
+          <div class="project-detail-content">
+            <span class="close-btn">&times;</span>
+            <h2>French Quiz</h2>
+            <img src="images/french-quiz.png" />
+            <div>
+              <p>
+                The idea of the project is to help adults learning a new foreign
+                language, in this case French. The test includes 5 questions
+                which are randomly generated from the question banks. Each
+                question has 4 mutiple choice answers. Users submit their choice
+                for each question and then discover if their choice is correct.
+                A correct answer is indicated in green with a tick symbol and an
+                incorrect answer is indicated in red with a cross symbol. After
+                completeting 5 questions, a user will get the end result.
+              </p>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Responsive</li>
+              </ul>
+            </div>
+            <a
+              href="https://ttngocthao.github.io/quiz/"
+              target="blank"
+              class="visitBtn"
+              title="visit the project"
+              ><i class="fas fa-link"></i
+            ></a>
+            <a
+              href="https://github.com/ttngocthao/quiz"
+              class="gitLink"
+              title="visit its repositories"
+              ><i class="fab fa-github"></i
+            ></a>
+          </div>
+        </div>
 
-                <div class='projects wow slideInRight' data-wow-duration="3s">
-                        <h3>Recipe Search</h3>
-                        <div class='projects-img'><img src='D:\PROJECT\profolio\responsive\images\recipeSearch.png'></div>
-                    </div>
-                    <div class='project-detail-box'>
-                        <div class="project-detail-content">
-                            <span class='close-btn'>&times;</span> <h2>Recipe Search</h2>
-                            <img src='images/recipeSearch.png'>
-                            <div>
-                                <p>It is a React web application, finding recipes based on an ingredient search. Food API from Edamam.com  is used in this project to show 10 different recipes per ingredient search. A user chooses one recipe from the list of 10, a full list of the ingredient for that recipe is then shown. Moreover, there is a link provided to navigate to the original recipe's website in order to obtain the cooking methods.</p>
-                                <ul>
-                                    <li>React</li>
-                                    <li>React-Router</li>
-                                    <li>JavaScript</li>
-                                    <li>CSS</li>
-                                    <li>HTML</li>
-                                </ul>
-                            </div>
-                            <a href="https://search-recipes-thaotruong.netlify.com/" target="blank" class='visitBtn'><i class="fas fa-link" title="visit the project"></i></a>
-                            <a href="https://github.com/ttngocthao/React-Search-Recipes" class='gitLink' title="visit its repositories"><i class="fab fa-github"></i></a>
-                            <!-- <div>Finding the right colours for your website is not easy. Even though I am considered to have a natural flair for creativity and design, it still takes me time to decide on the correct colours. This has inspired me to create a simple interactive webpage to help decide which colours should be used together based on the prevailing colour scheme. It is coming soon!!</div> -->
-                        </div>
-                    </div>                
+        <div class="projects wow slideInLeft" data-wow-duration="3s">
+          <h3>Indian Restaurant</h3>
+          <div class="projects-img"><img src="images/restaurant.png" /></div>
+        </div>
+        <div class="project-detail-box">
+          <div class="project-detail-content">
+            <span class="close-btn">&times;</span>
+            <h2>Indian Restaurant</h2>
+            <img src="images/restaurant.png" />
+            <div>
+              <p>
+                This is an informative webpage for the Indian pub/restaurant
+                that I often visit . Within the webpage, information about the
+                location and the menu is shown. Zoom effects are used to enhance
+                the customers' experience. Google map link is used to show the
+                location. All the codes in this project are hand-coded. The web
+                page is device responsive, ie; it works across all device
+                platforms.
+              </p>
+              <ul>
+                <li>HTML</li>
+                <li>SCSS</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+            <a
+              href="https://ttngocthao.github.io/indian-restaurant/"
+              target="blank"
+              class="visitBtn"
+              ><i class="fas fa-link" title="visit the project"></i
+            ></a>
+            <a
+              href="https://github.com/ttngocthao/indian-restaurant"
+              class="gitLink"
+              title="visit its repositories"
+              ><i class="fab fa-github"></i
+            ></a>
+          </div>
+        </div>
+      </section>
 
-                <div class='projects wow slideInRight' data-wow-duration="3s">
-                    <h3>Weather Web</h3>
-                    <div class='projects-img'><img src='images/weatherapp.png'></div>
-                </div>
-                <div class='project-detail-box'>
-                    <div class="project-detail-content">
-                        <span class='close-btn'>&times;</span> <h2>Weather Web</h2>
-                        <img src='images/weatherapp.png'>
-                        <div>
-                            <p>My first React web application. Users can find the current weather of a particular place thanks to the town and country search box. Weather API is used in this project to show current location, current temperature and current weather description. Moreover, the application also demonstrates  the weather forecast of that location for the next 4 days.</p>
-                            <ul>
-                                <li>React</li>
-                                <li>JavaScript</li>
-                                <li>CSS</li>
-                                <li>HTML</li>
-                            </ul>
-                        </div>
-                        <a href="https://weatherapp-thaotruong.netlify.com/" target="blank" class='visitBtn'><i class="fas fa-link" title="visit the project"></i></a>
-                        <a href="https://github.com/ttngocthao/weather-app-react" class='gitLink' title="visit its repositories"><i class="fab fa-github"></i></a>
-                        <!-- <div>Finding the right colours for your website is not easy. Even though I am considered to have a natural flair for creativity and design, it still takes me time to decide on the correct colours. This has inspired me to create a simple interactive webpage to help decide which colours should be used together based on the prevailing colour scheme. It is coming soon!!</div> -->
-                    </div>
-                </div>
-                
-                <div class='projects wow slideInRight' data-wow-duration="3s">
-                    <h3>Little Sweet Bakery</h3>
-                    <div class='projects-img'><img src='images/littleSweet.png'></div>
-                </div>
-                <div class='project-detail-box'>
-                    <div class="project-detail-content">
-                        <span class='close-btn'>&times;</span>
-                        <h2>Little Sweet Bakery</h2>
-                        <img src='images/littleSweet.png'>
-                        <div>
-                            <p>An informative and online shopping webpage. Google map API is used to show location. AJAX call is used to get the data from JSON to the webpage.  All the products’ data, products’ information, is dynamically loaded using JavaScript and ES6 Syntax. The webpage has functionalities to display a star rating for each product, to show product information individually, to add a product to shopping basket, to adjust items in shopping basket and to search products from search box. Simple PHP Post is used for the contact form in the webpage. SCSS clip-path and shape-outside properties are used to display pictures that are, ‘out of the box format’. The web page is device responsive. User-friendly front-end features are used.
-                            </p>
-                            <ul>
-                                <li>HTML</li>
-                                <li>SCSS</li>
-                                <li>JAVASCRIPT</li>
-                                <li>JQUERY</li>
-                                <li>PHP</li>               
-                            </ul>
-                        </div>
-                        <a href="https://ttngocthao.github.io/littleSweet/" class='visitBtn' target="blank" title="visit the project"><i class="fas fa-link"></i></a>
-                        <a href="https://github.com/ttngocthao/littleSweet" class='gitLink' title="visit its repositories
-                        "><i class="fab fa-github"></i></a>
-                    </div>
-                </div>
-                
-                <div class='projects wow slideInLeft' data-wow-duration="3s">
-                    <h3>French Quiz</h3>
-                    <div class='projects-img'><img src='images/french-quiz.png'></div>
-                </div>
-                <div class='project-detail-box'>
-                    <div class="project-detail-content">
-                        <span class='close-btn'>&times;</span>
-                        <h2>French Quiz</h2>
-                        <img src='images/french-quiz.png'>
-                        <div>
-                            <p>The idea of the project is to help adults learning a new foreign language, in this case French. The test includes 5 questions which are randomly generated from the question banks. Each question has 4 mutiple choice answers. Users submit their choice for each question and then discover if their choice is correct. A correct answer is indicated in green with a tick symbol and an incorrect answer is indicated in red with a cross symbol. After completeting 5 questions, a user will get the end result.</p>
-                            <ul>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>JavaScript</li>
-                                <li>Responsive</li>
-                            </ul>
-                        </div>
-                        <a href="https://ttngocthao.github.io/quiz/" target="blank" class='visitBtn' title="visit the project"><i class="fas fa-link"></i></a>
-                        <a href="https://github.com/ttngocthao/quiz" class='gitLink' title="visit its repositories" ><i class="fab fa-github"></i></a>
-                    </div>
-                </div> 
+      <!-- Skills go here -->
+      <section id="skills">
+        <!-- SOFT SKILLS go here -->
+        <h1 class="wow fadeIn" data-wow-duration="4s">Soft Skills</h1>
+        <section class="soft-skills">
+          <div class="wow fadeInDown" data-wow-duration="3s">
+            <h3>Aptitude</h3>
+            <p>
+              I have alway been technically minded and I am keen to keep
+              up-to-date technically and learn new things.
+            </p>
+          </div>
+          <div class="wow fadeInDown" data-wow-duration="3s">
+            <h3>Professionalism</h3>
+            <p>
+              Being a professional Maths teacher and having worked in front of
+              students for several years, I am aware that professionalism and
+              presentation are extremely important.
+            </p>
+          </div>
+          <div class="wow fadeInDown" data-wow-duration="3s">
+            <h3>Motivation</h3>
+            <p>
+              I am very motivated and never leave a job unfinished until I am
+              completely satisfied with it.
+            </p>
+          </div>
+          <div class="wow fadeInDown" data-wow-duration="3s">
+            <h3>Management</h3>
+            <p>
+              During my teaching career, I had to manage full classrooms,
+              student excursions, the term project budget and a host of other
+              duties to ensure things ran smoothly at school.
+            </p>
+          </div>
+          <div class="wow fadeInDown" data-wow-duration="3s">
+            <h3>Teamwork</h3>
+            <p>
+              Although I can work independently, I am very happy to work as part
+              of a team and share responsibilities.
+            </p>
+          </div>
+          <div class="wow fadeInDown" data-wow-duration="3s">
+            <h3>Communication</h3>
+            <p>
+              Despite not having English as my first language, I have no problem
+              communicating with fellow colleagues. I enjoy professional and
+              social interactions at work.
+            </p>
+          </div>
+          <div></div>
+        </section>
+        <!-- TECH SKILLS go here -->
+        <h1 class="wow fadeIn" data-wow-duration="4s">Technical Skills</h1>
+        <section class="tech-skills">
+          <div class="wow fadeInRight" data-wow-duration="3s">
+            <i class="fab fa-html5"></i>
+            <span class="icon-meaning">html5</span>
+          </div>
+          <div class="wow fadeInRight" data-wow-duration="3s">
+            <i class="fab fa-js-square"></i>
+            <span class="icon-meaning">javascript</span>
+          </div>
+          <div class="wow fadeInRight" data-wow-duration="3s">
+            <i class="fab fa-css3-alt"></i>
+            <span class="icon-meaning">css3</span>
+          </div>
+          <div class="wow fadeInRight" data-wow-duration="3s">
+            <i class="fab fa-react"></i>
+            <span class="icon-meaning">React</span>
+          </div>
+          <div class="wow fadeInRight" data-wow-duration="3s">
+            <span id="b-icon">B</span>
+            <span class="icon-meaning">bootstrap</span>
+          </div>
+          <div class="wow fadeInRight" data-wow-duration="3s">
+            <i id="sassy-icon" class="fab fa-sass"></i>
+            <span class="icon-meaning">sassy</span>
+          </div>
+          <div class="wow fadeInRight" data-wow-duration="3s">
+            <span id="ps-icon">PS</span>
+            <span class="icon-meaning">adobe photoshop</span>
+          </div>
+          <div class="wow fadeInRight" data-wow-duration="3s">
+            <span id="jq-icon"><img src="images/jquery.png"/></span>
+            <span class="icon-meaning">jquery</span>
+          </div>
+        </section>
+      </section>
 
-                <div class='projects wow slideInLeft' data-wow-duration="3s">
-                    <h3>Indian Restaurant</h3>
-                    <div class='projects-img'><img src='images/restaurant.png'></div>
-                </div>
-                <div class='project-detail-box'>
-                    <div class="project-detail-content">
-                        <span class='close-btn'>&times;</span> <h2>Indian Restaurant</h2>
-                        <img src='images/restaurant.png'>
-                        <div>
-                            <p>This is an informative webpage for the Indian pub/restaurant that I often visit . Within the webpage, information about the location and the menu is shown. Zoom effects are used to enhance the customers' experience. Google map link is used to show the location. All the codes in this project are hand-coded. The web page is device responsive, ie; it works across all device platforms. </p>
-                            <ul>
-                                <li>HTML</li>
-                                <li>SCSS</li>
-                                <li>JavaScript</li>
-                            </ul>
-                        </div>
-                        <a href="https://ttngocthao.github.io/indian-restaurant/" target="blank" class='visitBtn'><i class="fas fa-link" title="visit the project"></i></a>
-                        <a href="https://github.com/ttngocthao/indian-restaurant" class='gitLink' title="visit its repositories"><i class="fab fa-github"></i></a>
-                    </div>
-                </div>
+      <!-- Education goes here-->
+      <section id="edu">
+        <h1 class="wow fadeIn" data-wow-duration="4s">Education</h1>
+        <div class="wrapper">
+          <div class="education wow fadeInLeft" data-wow-duration="3s">
+            <div class="time-line">
+              <h3>APR</h3>
+              <h4>2018</h4>
+            </div>
+            <div class="edu-detail">
+              <h4>Web Development Course<br />@ Just IT</h4>
+              <p>
+                I have completed a self-funded course in front end web
+                development with the full intention to work as a Junior
+                Front-end Web Developer.
+              </p>
+            </div>
+          </div>
+          <div class="education wow fadeInLeft" data-wow-duration="3s">
+            <div class="time-line">
+              <h3>DEC</h3>
+              <h4>2017</h4>
+            </div>
+            <div class="edu-detail">
+              <h4>European Computer Driving Licence<br />@ Open IT training</h4>
+              <p>
+                I studied online here in the UK to achieve the neccessary
+                standard to obtain this certificate, to vindicate the skills I
+                learnt in Vietnam.
+              </p>
+            </div>
+          </div>
+          <div class="education wow fadeInLeft" data-wow-duration="3s">
+            <div class="time-line">
+              <h3>OCT</h3>
+              <h4>2015</h4>
+            </div>
+            <div class="edu-detail">
+              <h4>
+                Teaching and training Certificate<br />@ West Thames College
+              </h4>
+              <p>
+                I took this course to improve my English listening skills with a
+                view towards obtaining my first job here.
+              </p>
+            </div>
+          </div>
+          <div class="education wow fadeInLeft" data-wow-duration="3s">
+            <div class="time-line">
+              <h3>SEP</h3>
+              <h4>2015</h4>
+            </div>
+            <div class="edu-detail">
+              <h4>
+                B2 Cambridge English Certificate<br />@ Brooklands College
+              </h4>
+              <p>
+                After a few months in the UK, I wanted to study something to
+                have a chance to get out of the house, to socialise and to
+                improve my English.
+              </p>
+            </div>
+          </div>
+          <div class="education wow fadeInLeft" data-wow-duration="3s">
+            <div class="time-line">
+              <h3>SEP</h3>
+              <h4>2008</h4>
+            </div>
+            <div class="edu-detail">
+              <h4>
+                Bachelor of Arts Maths Pedagogy<br />@ Saigon University,Vietnam
+              </h4>
+              <p>
+                Part-time study for 2 years in order to get a Bachelor's Degree
+                while teaching at state school
+              </p>
+            </div>
+          </div>
+          <div class="education wow fadeInLeft" data-wow-duration="3s">
+            <div class="time-line">
+              <h3>JUL</h3>
+              <h4>2005</h4>
+            </div>
+            <div class="edu-detail">
+              <h4>
+                Asscociate of Arts Maths Education<br />@ Saigon
+                University,Vietnam
+              </h4>
+              <p>
+                I went to University in Maths Education for 3 years. During this
+                time, we were sent on site to various schools to practice
+                teaching skills as part of the national curriculum.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-               
+      <!-- Work experiences go here -->
+      <section id="works">
+        <h1 class="wow fadeIn" data-wow-duration="4s">Work Experiences</h1>
+        <ul class="timeline">
+          <li class="timeline-event wow bounceInRight" data-wow-duration="3s">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-detail">
+              <p class="timeline-event-date">March 2019 - Present</p>
+              <h3>Front End Web developer Internship</h3>
+              <h4>@Deputi AI</h4>
+              <span class="moreBtn"
+                ><i class="fas fa-sort-up"></i
+                ><span class="text">Click for details</span></span
+              >
+              <div class="trial timeline-event-text">
+                <p>
+                  A 4 week internship with a company called Deputi AI. My duties
+                  during that time were making application components using
+                  React/React Router/JavaScript, enhancing the user interface of
+                  their application using CSS. I was also tasked with updating
+                  their company website using CSS, JQuery, Photoshop, Oxygen
+                  plug-in in Wordpress. I was trained how to use Git control
+                  version to create/ push/ merge branches.
+                </p>
+              </div>
+            </div>
+          </li>
 
-            </section>
+          <li class="timeline-event wow bounceInRight" data-wow-duration="3s">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-detail">
+              <p class="timeline-event-date">Sep 2016 - Feb 2019</p>
+              <h3>Full-time Teaching Assistant</h3>
+              <h4>@Thomas Knyvett College Ashford</h4>
+              <span class="moreBtn"
+                ><i class="fas fa-sort-up"></i
+                ><span class="text">Click for details</span></span
+              >
+              <div class="trial timeline-event-text">
+                <p>
+                  My main duty is supporting students who have difficulty in
+                  learning.
+                </p>
+                <p>
+                  Apart from that, I also help my colleges with computing, such
+                  as making documents, presentations and worksheets.
+                </p>
+                <p>
+                  Because I am good with computers, I am often asked to be in
+                  the computer room as a technician to help and support students
+                  who are using them during their examination.
+                </p>
+              </div>
+            </div>
+          </li>
 
-            <!-- Skills go here -->
-            <section id='skills'>
-                 <!-- SOFT SKILLS go here -->
-                 <h1 class='wow fadeIn' data-wow-duration="4s">Soft Skills</h1>
-                <section class='soft-skills'>
-                    <div class='wow fadeInDown' data-wow-duration="3s">
-                        <h3>Aptitude</h3>
-                        <p> I have alway been technically minded and I am keen to keep up-to-date technically and learn new things.</p>
-                    </div>
-                    <div class='wow fadeInDown' data-wow-duration="3s">
-                        <h3>Professionalism</h3>
-                        <p>Being a professional Maths teacher and having worked in front of students for several years, I am aware that professionalism and presentation are extremely important.</p>
-                    </div>
-                    <div class='wow fadeInDown' data-wow-duration="3s">
-                        <h3>Motivation</h3>
-                        <p> I am very motivated and never leave a job unfinished until I am completely satisfied with it.</p>
-                    </div>
-                    <div class='wow fadeInDown' data-wow-duration="3s">
-                        <h3>Management</h3>
-                        <p> During my teaching career, I had to manage full classrooms, student excursions, the term project budget and a host of other duties to ensure things ran smoothly at school.</p>
-                    </div>
-                    <div class='wow fadeInDown' data-wow-duration="3s">
-                        <h3>Teamwork</h3>
-                        <p> Although I can work independently, I am very happy to work as part of a team and share responsibilities.</p>
-                    </div>
-                    <div class='wow fadeInDown' data-wow-duration="3s">
-                        <h3>Communication</h3>
-                        <p>Despite not having English as my first language, I have no problem communicating with fellow colleagues. I enjoy professional and social interactions at work.</p>
-                    </div>
-                    <div>
-                        
-                    </div>
-                </section>
-                <!-- TECH SKILLS go here -->
-                <h1 class='wow fadeIn' data-wow-duration="4s">Technical Skills</h1>
-                <section class='tech-skills'>
-                    <div class='wow fadeInRight' data-wow-duration="3s">
-                        <i class="fab fa-html5"></i>
-                        <span class='icon-meaning'>html5</span>
-                    </div>
-                    <div class='wow fadeInRight' data-wow-duration="3s">
-                        <i class="fab fa-js-square"></i>
-                        <span class='icon-meaning'>javascript</span>
-                    </div>
-                    <div class='wow fadeInRight' data-wow-duration="3s">
-                        <i class="fab fa-css3-alt"></i>
-                        <span class='icon-meaning'>css3</span>
-                    </div>
-                    <div class='wow fadeInRight' data-wow-duration="3s">
-                            <i class="fab fa-react"></i>
-                        <span class='icon-meaning'>React</span>
-                    </div>
-                    <div class='wow fadeInRight' data-wow-duration="3s">
-                        <span id='b-icon'>B</span>
-                        <span class='icon-meaning'>bootstrap</span>
-                    </div>
-                    <div class='wow fadeInRight' data-wow-duration="3s">
-                        <i id='sassy-icon' class="fab fa-sass"></i>
-                        <span class='icon-meaning'>sassy</span>
-                    </div>                    
-                    <div class='wow fadeInRight' data-wow-duration="3s">
-                        <span id='ps-icon'>PS</span>
-                        <span class='icon-meaning'>adobe photoshop</span>
-                    </div>
-                    <div class='wow fadeInRight' data-wow-duration="3s">
-                        <span id='jq-icon'><img src='images/jquery.png'></span>
-                        <span class='icon-meaning'>jquery</span>
-                    </div>
-                </section>
-            </section>
+          <li class="timeline-event wow bounceInLeft" data-wow-duration="3s">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-detail">
+              <p class="timeline-event-date">Jan 16 - Jul 16</p>
+              <h3>Maths Tutor</h3>
+              <h4>@QS Learning Center</h4>
+              <span class="moreBtn"
+                ><i class="fas fa-sort-up"></i
+                ><span class="text">Click for details</span></span
+              >
+              <div class="trial timeline-event-text">
+                <p>
+                  This was a part-time job, teaching children at The QS Learning
+                  Center for after school lessons. The job also involved marking
+                  the children's work and communicating with their parents.
+                </p>
+              </div>
+            </div>
+          </li>
 
-            <!-- Education goes here-->
-            <section id='edu'>
-                <h1 class='wow fadeIn' data-wow-duration="4s" >Education</h1>
-                <div class='wrapper'>
-                    <div class='education wow fadeInLeft' data-wow-duration="3s" >
-                        <div class='time-line'>
-                            <h3>APR</h3>
-                            <h4>2018</h4>
-                        </div>
-                        <div class='edu-detail'>
-                            <h4>Web Development Course<br>@ Just IT </h4>
-                            <p >I have completed a self-funded course in front end web development with the full intention to work as a Junior Front-end Web Developer.</p>
-                        </div>
-                    </div>
-                    <div class='education wow fadeInLeft' data-wow-duration="3s" >
-                        <div class='time-line'>
-                            <h3>DEC</h3>
-                            <h4>2017</h4>
-                        </div>
-                        <div class='edu-detail'>
-                            <h4>European Computer Driving Licence<br>@ Open IT training </h4>
-                            <p >I studied online here in the UK to achieve the neccessary standard to obtain this certificate, to vindicate the skills I learnt in Vietnam.</p>
-                        </div>
-                    </div>
-                    <div class='education wow fadeInLeft' data-wow-duration="3s" >
-                        <div class='time-line'>
-                            <h3>OCT</h3>
-                            <h4>2015</h4>
-                        </div>
-                        <div class='edu-detail'>
-                            <h4>Teaching and training Certificate<br>@ West Thames College </h4>
-                            <p >I took this course to improve my English listening skills with a view towards obtaining my first job here.</p>
-                        </div>
-                    </div>
-                    <div class='education wow fadeInLeft' data-wow-duration="3s" >
-                        <div class='time-line'>
-                            <h3>SEP</h3>
-                            <h4>2015</h4>
-                        </div>
-                        <div class='edu-detail'>
-                            <h4>B2 Cambridge English Certificate<br>@ Brooklands College </h4>
-                            <p >After a few months in the UK, I wanted to study something to have a chance to get out of the house, to socialise and to improve my English.</p>
-                        </div>
-                    </div>
-                    <div class='education wow fadeInLeft' data-wow-duration="3s" >
-                        <div class='time-line'>
-                            <h3>SEP</h3>
-                            <h4>2008</h4>
-                        </div>
-                        <div class='edu-detail'>
-                            <h4>Bachelor of Arts Maths Pedagogy<br>@ Saigon University,Vietnam</h4>
-                            <p >Part-time study for 2 years in order to get a Bachelor's Degree while teaching at state school</p>
-                        </div>
-                    </div>
-                    <div class='education wow fadeInLeft' data-wow-duration="3s" >
-                        <div class='time-line'>
-                            <h3>JUL</h3>
-                            <h4>2005</h4>
-                        </div>
-                        <div class='edu-detail'>
-                            <h4>Asscociate of Arts Maths Education<br>@ Saigon University,Vietnam</h4>
-                            <p>I went to University in Maths Education for 3 years. During this time, we were sent on site to various schools to practice teaching skills as part of the national curriculum.</p>
-                        </div>
-                    </div>
-                    
-                </div>
-            </section>
+          <li class="timeline-event wow bounceInRight" data-wow-duration="3s">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-detail">
+              <p class="timeline-event-date">Jul 15 - Dec 15</p>
+              <h3>Shop Assistant</h3>
+              <h4>@Spelthorne Mental Health Association Charity</h4>
+              <span class="moreBtn"
+                ><i class="fas fa-sort-up"></i
+                ><span class="text">Click for details</span></span
+              >
+              <div class="trial timeline-event-text">
+                <p>
+                  I got this voluntary job after being in the UK for 3 months.
+                  My main duties were sorting donated items and displaying them
+                  nicely in the shop, meeting customers and being sociable with
+                  them to enhance their shopping experience.
+                </p>
+              </div>
+            </div>
+          </li>
 
-            <!-- Work experiences go here -->
-            <section id='works'>
-                <h1 class='wow fadeIn' data-wow-duration="4s">Work Experiences</h1>
-                <ul class="timeline">
-                    <li class="timeline-event wow bounceInRight" data-wow-duration="3s">
-                      <label class="timeline-event-icon"></label>
-                      <div class="timeline-event-detail">
-                        <p class="timeline-event-date">March 2019 - Present</p>
-                        <h3>Front End Web developer Internship</h3>
-                        <h4>@Deputi AI </h4>
-                        <span class='moreBtn'><i class="fas fa-sort-up"></i><span class='text'>Click for details</span></span>
-                        <div class='trial timeline-event-text'>
-                            <p>A 4 week internship with a company called Deputi AI. My duties during that time were making application components, enhancing the user interface of their application. I was also  tasked with updating their company website. I learned how to connect an application to MongoDB database. I learned how to work with other developers in the team and how to use Git control version to make sure the project ran smoothly.</p>
-                        </div>
-                      </div>
-                    </li>
+          <li class="timeline-event wow bounceInLeft" data-wow-duration="3s">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-detail">
+              <p class="timeline-event-date">Jan 10 - Apr 15</p>
+              <h3>Maths Teacher</h3>
+              <h4>@Singapore International School, Vietnam</h4>
+              <span class="moreBtn"
+                ><i class="fas fa-sort-up"></i
+                ><span class="text">Click for details</span></span
+              >
+              <div class="trial timeline-event-text">
+                <p>
+                  This was a full-time job, teaching maths to 12-15 years old
+                  students. The job also involved meeting students' parents,
+                  organising students' concerts and managing school excursions.
+                  I developed teaching lessons and teaching materials based on
+                  the national curriculum. I collaborated with a team of faculty
+                  to develop after-school tutorial programmes for students in
+                  need of extra help.
+                </p>
+              </div>
+            </div>
+          </li>
 
-                    <li class="timeline-event wow bounceInRight" data-wow-duration="3s">
-                      <label class="timeline-event-icon"></label>
-                      <div class="timeline-event-detail">
-                        <p class="timeline-event-date">Sep 2016 - Feb 2019</p>
-                        <h3>Full-time Teaching Assistant</h3>
-                        <h4>@Thomas Knyvett College Ashford</h4>
-                        <span class='moreBtn'><i class="fas fa-sort-up"></i><span class='text'>Click for details</span></span>
-                        <div class='trial timeline-event-text'>
-                            <p>My main duty is supporting students who have difficulty in learning.</p>
-                            <p>Apart from that, I also help my colleges with computing, such as making documents, presentations and worksheets.</p>
-                            <p>Because I am good with computers, I am often asked to be in the computer room as a technician to help and support students who are using them during their examination.</p>
-                        </div>
-                      </div>
-                    </li>
-                
-                    <li class="timeline-event wow bounceInLeft" data-wow-duration="3s">
-                        <label class="timeline-event-icon"></label>
-                        <div class="timeline-event-detail">
-                          <p class="timeline-event-date">Jan 16 - Jul 16</p>
-                          <h3>Maths Tutor</h3>
-                          <h4>@QS Learning Center</h4>
-                          <span class='moreBtn'><i class="fas fa-sort-up"></i><span class='text'>Click for details</span></span>
-                          <div class='trial timeline-event-text'>
-                              <p>This was a part-time job, teaching children at The QS Learning Center for after school lessons. The job also involved marking the children's work and communicating with their parents.</p>
-                          </div>
-                        </div>
-                    </li>
-                
-                    <li class="timeline-event wow bounceInRight" data-wow-duration="3s">
-                        <label class="timeline-event-icon"></label>
-                        <div class="timeline-event-detail">
-                          <p class="timeline-event-date">Jul 15 - Dec 15</p>
-                          <h3>Shop Assistant </h3>
-                          <h4>@Spelthorne Mental Health Association Charity</h4><span class='moreBtn'><i class="fas fa-sort-up"></i><span class='text'>Click for details</span></span>
-                          <div class='trial timeline-event-text'>
-                              <p>I got this voluntary job after being in the UK for 3 months. My main duties were sorting donated items and displaying them nicely in the shop, meeting customers and being sociable with them to enhance their shopping experience.</p>
-                          </div>
-                        </div>
-                    </li>
+          <li class="timeline-event wow bounceInRight" data-wow-duration="3s">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-detail">
+              <p class="timeline-event-date">Oct 08 - Oct 09</p>
+              <h3>Maths Teacher</h3>
+              <h4>@Binh An Secondary School, Vietnam</h4>
+              <span class="moreBtn"
+                ><i class="fas fa-sort-up"></i
+                ><span class="text">Click for details</span></span
+              >
+              <div class="trial timeline-event-text">
+                <p>
+                  This was my first full-time job, teaching maths to students
+                  from 12 years old and upwards, based on the National
+                  Curriculum.
+                </p>
+              </div>
+            </div>
+          </li>
 
-                    <li class="timeline-event wow bounceInLeft" data-wow-duration="3s">
-                        <label class="timeline-event-icon"></label>
-                        <div class="timeline-event-detail">
-                            <p class="timeline-event-date">Jan 10 - Apr 15</p>
-                            <h3>Maths Teacher
-                            </h3>
-                            <h4>@Singapore International School, Vietnam</h4><span class='moreBtn'><i class="fas fa-sort-up"></i><span class='text'>Click for details</span></span>
-                            <div class='trial timeline-event-text'>
-                                <p>This was a full-time job, teaching maths to 12-15 years old students. The job also involved meeting students' parents, organising students' concerts and managing school excursions. I developed teaching lessons and teaching materials based on the national curriculum. I collaborated with a team of faculty to develop after-school tutorial programmes for students in need of extra help.</p>
-                            </div>
-                        </div>
-                    </li>
+          <li class="timeline-event wow bounceInLeft" data-wow-duration="3s">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-detail">
+              <p class="timeline-event-date">Jul 07 - Jul 08</p>
+              <h3>Caterer</h3>
+              <h4>@Legend Hotel, HoChiMinh city, VietNam</h4>
+              <span class="moreBtn"
+                ><i class="fas fa-sort-up"></i
+                ><span class="text">Click for details</span></span
+              >
+              <div class="trial timeline-event-text">
+                <p>
+                  The job involved setting up dining tables according to the
+                  type of events and service standards. I learnt hospitality
+                  skills in catering and followed all health and safety policies
+                  to the letter.
+                </p>
+              </div>
+            </div>
+          </li>
 
-                    <li class="timeline-event wow bounceInRight" data-wow-duration="3s">
-                        <label class="timeline-event-icon"></label>
-                        <div class="timeline-event-detail">
-                            <p class="timeline-event-date">Oct 08 - Oct 09</p>
-                            <h3>Maths Teacher
-                            </h3>
-                            <h4>@Binh An Secondary School, Vietnam</h4>
-                            <span class='moreBtn'><i class="fas fa-sort-up"></i><span class='text'>Click for details</span></span>
-                            <div class='trial timeline-event-text'>
-                                <p>This was my first full-time job, teaching maths to students from 12 years old and upwards, based on the National Curriculum.</p>
-                            </div>
-                        </div>
-                    </li>
+          <li class="timeline-event wow bounceInRight" data-wow-duration="3s">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-detail">
+              <p class="timeline-event-date">Oct 05 - Jul 07</p>
+              <h3>Caterer</h3>
+              <h4>@Novotel Hotel, HoChiMinh city, VietNam</h4>
+              <span class="moreBtn"
+                ><i class="fas fa-sort-up"></i
+                ><span class="text">Click for details</span></span
+              >
+              <div class="trial timeline-event-text">
+                <p>
+                  This was my first taste of real employment, post school. It
+                  was a part time job as I was studying in university. The job
+                  involved setting up dining tables according to the different
+                  types of event and service standards. I learnt hospitality
+                  skills in catering and followed all health and safety policies
+                  to the letter.
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
 
-                    <li class="timeline-event wow bounceInLeft" data-wow-duration="3s">
-                        <label class="timeline-event-icon"></label>
-                        <div class="timeline-event-detail">
-                            <p class="timeline-event-date">Jul 07 - Jul 08</p>
-                            <h3>Caterer</h3>
-                            <h4>@Legend Hotel, HoChiMinh city, VietNam</h4>
-                            <span class='moreBtn'><i class="fas fa-sort-up"></i><span class='text'>Click for details</span></span>
-                            <div class='trial timeline-event-text'>
-                                <p>The job involved setting up dining tables according to the type of events and service standards. I learnt hospitality skills in catering and followed all health and safety policies to the letter.</p>
-                            </div>
-                        </div>
-                    </li>
+      <!-- Contact goes here -->
+      <section id="contact">
+        <h1 class="wow fadeIn" data-wow-duration="4s">Contact Me</h1>
+        <div class="wrapper">
+          <div class="contact-info wow fadeInDownBig" data-wow-duration="3s">
+            <h2>Thao Truong</h2>
+            <p id="myphone">07547432860</p>
+            <p id="myemail">webdeveloper@thaotruong.uk</p>
+            <p id="website">thaotruong . uk</p>
+            <p class="ex-links">
+              <span
+                ><a
+                  href="https://www.linkedin.com/in/thao-truong-frontend-developer"
+                  target="blank"
+                  ><i class="fab fa-linkedin"></i></a
+              ></span>
+              <span
+                ><a href="https://github.com/ttngocthao" target="blank"
+                  ><i class="fab fa-github-square"></i></a
+              ></span>
+              <span
+                ><a href="https://codepen.io/ttngocthao/" target="blank"
+                  ><i class="fab fa-codepen"></i></a
+              ></span>
+            </p>
+          </div>
+          <div class="contact-form wow fadeInUpBig" data-wow-duration="3s">
+            <h2>Leave me a message</h2>
 
-                    <li class="timeline-event wow bounceInRight" data-wow-duration="3s">
-                        <label class="timeline-event-icon"></label>
-                        <div class="timeline-event-detail">
-                            <p class="timeline-event-date">Oct 05 - Jul 07</p>
-                            <h3>Caterer</h3>
-                            <h4>@Novotel Hotel, HoChiMinh city, VietNam</h4>
-                            <span class='moreBtn'><i class="fas fa-sort-up"></i><span class='text'>Click for details</span></span>
-                            <div class='trial timeline-event-text'>
-                                <p>This was my first taste of real employment, post school. It was a part time job as I was studying in university. The job involved setting up dining tables according to the different types of event and service standards. I learnt hospitality skills in catering and followed all health and safety policies to the letter.</p>
-                            </div>
-                        </div>
-                    </li>
+            <form id="contact-form" onsubmit="submitForm(); return false;">
+              <p>
+                <label>First Name</label
+                ><input
+                  id="customerFirstName"
+                  placeholder="First Name"
+                  required
+                />
+              </p>
+              <p>
+                <label>Last Name</label
+                ><input
+                  id="customerLastName"
+                  placeholder="Last Name"
+                  required
+                />
+              </p>
+              <p>
+                <label>Phone number</label
+                ><input
+                  id="customerPhone"
+                  placeholder="Phone Number"
+                  required
+                />
+              </p>
+              <p>
+                <label>Email Address</label
+                ><input
+                  id="customerEmail"
+                  placeholder="Email Address"
+                  type="email"
+                  required
+                />
+              </p>
+              <label>Message</label>
+              <textarea
+                id="customerMsg"
+                placeholder="Write your message here"
+                rows="10"
+                required
+              ></textarea>
+              <p>
+                <input
+                  id="contactSubmitBtn"
+                  type="submit"
+                  value="Submit"
+                /><span id="status"></span>
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
 
-                </ul>
-            </section>
+    <!--Page footer goes here-->
+    <footer>
+      <span>@Copyright 2018 </span>
+      <span>WebDeveloper@thaotruong.uk</span>
+    </footer>
 
-            <!-- Contact goes here -->
-            <section id='contact'>
-                <h1 class='wow fadeIn' data-wow-duration="4s">Contact Me</h1>
-                <div class='wrapper'>
-                    <div class='contact-info wow fadeInDownBig' data-wow-duration="3s">
-                        <h2>Thao Truong</h2>
-                        <p id='myphone'> 07547432860</p>
-                        <p id='myemail'>webdeveloper@thaotruong.uk</p>
-                        <p id='website'>thaotruong . uk</p>
-                        <p class='ex-links'>
-                            <span><a href="https://www.linkedin.com/in/thao-truong-frontend-developer" target="blank"><i class="fab fa-linkedin"></i></a></span>
-                            <span><a href="https://github.com/ttngocthao" target="blank"><i class="fab fa-github-square"></i></a></span>
-                            <span><a href="https://codepen.io/ttngocthao/" target="blank"><i class="fab fa-codepen"></i></a></span>
-                        </p>
-                    </div>
-                    <div class='contact-form wow fadeInUpBig' data-wow-duration="3s">
-                        <h2>Leave me a message</h2>
-                        
-                            <form id="contact-form" onsubmit="submitForm(); return false;">
-                                <p><label>First Name</label><input id="customerFirstName" placeholder="First Name" required></p>
-                                <p><label>Last Name</label><input id="customerLastName" placeholder="Last Name" required></p>
-                                <p><label>Phone number</label><input id="customerPhone" placeholder="Phone Number" required></p>
-                                <p><label>Email Address</label><input id="customerEmail" placeholder="Email Address" type="email" required></p>
-                                <label>Message</label>
-                                <textarea id="customerMsg" placeholder="Write your message here" rows="10" required></textarea>
-                                <p><input id="contactSubmitBtn" type="submit" value="Submit"><span id="status"></span></p>
-                            </form>
-                        
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <!--Page footer goes here-->
-        <footer>
-            <span>@Copyright 2018 </span>
-            <span>WebDeveloper@thaotruong.uk</span>
-        </footer>
-
-        <!-- adding scripts -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src='scripts/hideNavOnScroll.js'></script>
-        <script src='scripts/projectDetail.js'></script>       
-        <script src='scripts/hideShowWorks.js'></script>
-        <script src="packages/WOW-master/dist/wow.min.js"></script>
-        <script src='scripts/toggleNav.js'></script>
-
-        
-        
-    </body>
+    <!-- adding scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="scripts/hideNavOnScroll.js"></script>
+    <script src="scripts/projectDetail.js"></script>
+    <script src="scripts/hideShowWorks.js"></script>
+    <script src="packages/WOW-master/dist/wow.min.js"></script>
+    <script src="scripts/toggleNav.js"></script>
+  </body>
 </html>

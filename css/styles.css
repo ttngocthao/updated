@@ -112,17 +112,17 @@ header {
   padding: 2% 0;
   background-color: rgba(255, 255, 255, 0.8);
   width: 100%;
-  transition: .5s; }
+  transition: 0.5s; }
   header #menu-icon {
     position: absolute;
     right: 2%;
-    top: .5rem; }
+    top: 0.5rem; }
   header #menu-icon:hover {
     cursor: pointer; }
   header #menu-icon div {
     width: 1.2rem;
-    height: .1rem;
-    margin: .2rem 0;
+    height: 0.1rem;
+    margin: 0.2rem 0;
     background-color: #f04178; }
 
 #my-logo {
@@ -137,7 +137,7 @@ header {
   width: 100%;
   top: 2.5rem;
   background-color: rgba(255, 255, 255, 0.7);
-  transition: .3s; }
+  transition: 0.3s; }
 
 .show {
   display: block;
@@ -153,7 +153,7 @@ header {
 
 .nav-list ul a li {
   padding: 2%;
-  transition: .3s; }
+  transition: 0.3s; }
 
 .nav-list ul li:hover {
   background-color: #fbcfdd;
@@ -167,8 +167,33 @@ main {
 #home {
   position: relative;
   text-align: center; }
-  #home .banner img {
-    width: 100%; }
+  #home .banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/lavender-background.jpg");
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center; }
+  #home .greeting h2,
+  #home .greeting h3,
+  #home .greeting h1 {
+    margin: 1rem auto; }
+  #home .greeting h3 {
+    font-weight: normal;
+    font-size: 1rem; }
+  #home .greeting h2 {
+    font-size: 1.2rem;
+    font-weight: normal; }
+  #home .greeting h1 {
+    font-size: 1.5rem;
+    line-height: 1.7rem; }
+  #home .greeting {
+    text-align: center;
+    letter-spacing: 0.05rem;
+    color: white; }
 
 /*------------- ABOUT ME ---------------*/
 #about-me {
@@ -191,8 +216,8 @@ main {
   #about-me .photo a {
     display: block;
     text-align: center;
-    margin: .5rem auto;
-    padding: .5rem 1rem;
+    margin: 0.5rem auto;
+    padding: 0.5rem 1rem;
     color: #f04178;
     font-size: 1rem;
     background-color: #fbcfdd;
@@ -205,16 +230,17 @@ main {
     width: 80%;
     margin: 1rem auto; }
   #about-me .intro h3 {
-    margin: .5rem auto;
+    margin: 0.5rem auto;
     font-weight: 300;
     font-size: 1.2rem; }
-  #about-me .intro h4, #about-me .intro h5 {
-    margin: .2rem auto;
+  #about-me .intro h4,
+  #about-me .intro h5 {
+    margin: 0.2rem auto;
     font-weight: 300;
     line-height: 1.2rem;
-    font-size: .9rem; }
+    font-size: 0.9rem; }
   #about-me .intro p {
-    margin: .8rem 0;
+    margin: 0.8rem 0;
     padding: 2% 0;
     line-height: 1.5rem; }
 
@@ -242,7 +268,7 @@ main {
 
 .projects img {
   width: 100%;
-  margin: .5rem auto; }
+  margin: 0.5rem auto; }
 
 .projects img:hover {
   cursor: pointer; }
@@ -271,8 +297,8 @@ main {
 
 .project-detail-content h2 {
   clear: both;
-  margin: .5rem auto;
-  padding: .5rem 0;
+  margin: 0.5rem auto;
+  padding: 0.5rem 0;
   border-top: 2px solid transparent;
   border-bottom: 2px solid transparent;
   width: 90%;
@@ -281,7 +307,7 @@ main {
 
 .project-detail-content img {
   width: 80%;
-  margin: .5rem auto; }
+  margin: 0.5rem auto; }
 
 .project-detail-content ul li {
   list-style: none; }
@@ -294,10 +320,12 @@ main {
   font-weight: bold;
   font-size: 28px; }
 
-.close-btn:hover, .close-btn:focus {
+.close-btn:hover,
+.close-btn:focus {
   cursor: pointer; }
 
-.visitBtn i, .gitLink i {
+.visitBtn i,
+.gitLink i {
   font-size: 1rem;
   color: #f04178;
   padding: 0 1rem; }
@@ -321,16 +349,16 @@ main {
     line-height: 1.8rem; }
 
 .soft-skills {
-  margin: .5rem auto;
+  margin: 0.5rem auto;
   width: 90%; }
 
 .soft-skills div {
   margin: 1rem auto;
-  font-size: .8rem; }
+  font-size: 0.8rem; }
 
 .soft-skills div h3 {
   font-size: 20px;
-  margin: .5rem auto; }
+  margin: 0.5rem auto; }
 
 .tech-skills {
   display: grid;
@@ -362,7 +390,7 @@ main {
   border-radius: 5px;
   transition: 0.2s;
   position: relative;
-  top: -.6rem; }
+  top: -0.6rem; }
 
 #jq-icon img {
   width: 40%; }
@@ -386,7 +414,9 @@ main {
   transition: 0.5s linear;
   font-size: 1rem; }
 
-.tech-skills div:hover #scss-icon, .tech-skills div:hover #ps-icon, .tech-skills div:hover #b-icon {
+.tech-skills div:hover #scss-icon,
+.tech-skills div:hover #ps-icon,
+.tech-skills div:hover #b-icon {
   background-color: #f8acc6;
   cursor: pointer; }
 
@@ -423,20 +453,20 @@ main {
     padding: 2%; }
   .education .time-line h4 {
     font-weight: 300;
-    font-size: .9rem; }
+    font-size: 0.9rem; }
   .education .edu-detail {
     border-left: 2px dashed #0c1825;
     background-color: #eff6fd;
     box-shadow: 2px 3px 8px #888888;
-    font-size: .8rem;
+    font-size: 0.8rem;
     padding: 0.5rem 2%;
-    padding-bottom: .5rem;
+    padding-bottom: 0.5rem;
     text-align: left;
     width: 90%;
-    margin: .8rem auto; }
+    margin: 0.8rem auto; }
   .education .edu-detail h4 {
-    margin: .5rem 2%;
-    font-size: .9rem;
+    margin: 0.5rem 2%;
+    font-size: 0.9rem;
     font-weight: 300; }
 
 /*------------- WORK EXPERIENCES ------------*/
@@ -468,7 +498,7 @@ main {
     box-sizing: border-box; }
   #works .timeline::before {
     background-color: #f04178;
-    content: '';
+    content: "";
     margin-left: -1px;
     position: absolute;
     top: 0;
@@ -483,16 +513,16 @@ main {
     top: -1.875em;
     left: 4em;
     width: 90%;
-    font-size: .8rem; }
+    font-size: 0.8rem; }
   #works .timeline-event-detail h3 {
     font-size: 1rem; }
   #works .timeline-event-detail h4 {
     font-size: 1rem;
-    margin: .3rem 0 .8rem 0; }
+    margin: 0.3rem 0 0.8rem 0; }
   #works .timeline-event-detail p:not(.timeline-event-date) {
     padding-bottom: 1.2em; }
   #works .timeline-event-icon {
-    transition: .3s ease-in;
+    transition: 0.3s ease-in;
     background-color: #f04178;
     outline: 10px solid white;
     display: block;
@@ -521,7 +551,7 @@ main {
 
 .moreBtn i {
   font-size: 1.5rem;
-  transition: .2s;
+  transition: 0.2s;
   padding: 2px;
   position: absolute;
   top: 0; }
@@ -559,38 +589,39 @@ main {
   .contact-info h2 {
     font-size: 1rem; }
   .contact-info p {
-    font-size: .8rem;
-    margin: .5rem auto; }
+    font-size: 0.8rem;
+    margin: 0.5rem auto; }
   .contact-info .ex-links i {
     font-size: 2rem;
-    margin: 0 .5rem;
+    margin: 0 0.5rem;
     color: #9a9a9a;
-    transition: .3s; }
+    transition: 0.3s; }
   .contact-info .ex-links i:hover {
     color: #f04178; }
 
 .contact-form {
   text-align: center; }
   .contact-form h2 {
-    font-size: .9rem;
-    padding-top: .8rem;
+    font-size: 0.9rem;
+    padding-top: 0.8rem;
     border-top: 2px solid lightgray;
     width: 80%;
     margin: 1.5rem auto 1rem auto; }
-  .contact-form input, .contact-form textarea {
+  .contact-form input,
+  .contact-form textarea {
     display: block;
-    margin: .5rem auto;
+    margin: 0.5rem auto;
     width: 70%;
-    padding: .2rem; }
+    padding: 0.2rem; }
   .contact-form #contactSubmitBtn {
     width: 50%;
-    letter-spacing: .2rem; }
+    letter-spacing: 0.2rem; }
 
 footer {
-  font-size: .6rem;
-  margin: 1.5rem 0 .1rem 0;
+  font-size: 0.6rem;
+  margin: 1.5rem 0 0.1rem 0;
   position: relative;
-  border-top: .5px solid lightgray;
+  border-top: 0.5px solid lightgray;
   color: lightgrey; }
   footer span:first-child {
     margin-left: 2%; }
