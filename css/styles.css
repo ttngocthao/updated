@@ -727,8 +727,8 @@ footer {
 
   /*------------- CONTACT ME ------------*/
   #contact .wrapper {
-    display: grid;
-    grid-template-columns: 50% 50%; }
+    /* display: grid;
+grid-template-columns: 50% 50%; } */
 
   .contact-info {
     align-self: center; }
